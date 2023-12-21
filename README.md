@@ -1,7 +1,7 @@
 # Neural Langevin Dynamics
 Code accompanying the paper Neural Langevin Dynamics, under review for NLDL 2024.
 
-The model parameters and settings used for the tables of results can be found under models. Functions for loading the settings files can be found in ./utils/settings.py, functions for creating the models from settings can be found in ./utils/common_components.py
+The model parameters and settings used for the tables of results can be found under models. Functions for loading the settings files can be found in ./utils/settings.py and functions for creating the models from settings can be found in ./utils/common_components.py
 
 To create and train new models from settings files, create settings files in ./settings/future_experiments (two examples are already there), and run run_experiments.py
 
@@ -9,4 +9,4 @@ For analysing the results it is helpful to use exp_gui.py. To automatically have
 
 Further tools for analysing the energy landscape can be found in ./utils/experiment_analysis.py and ./energy_tools.py
 
-The data can be found on https://ufile.io/f/jm7es (this url is valid until 12-10-2023). 
+The data can be found at https://surfdrive.surf.nl/files/index.php/s/EiOIy9S4dBRUdn6. 
